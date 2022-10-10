@@ -23,7 +23,8 @@ let product: ProductAlias = 'Food';
 enum ProductType {
   Sporting,
   Home,
+  Apparel,
 }
 
-type ProductTypeList = 'SPORTING' | 'HOME';
+type ProductTypeList = 'SPORTING' | 'HOME' | 'APPAREL';
 let p: ProductTypeList = 'SPORTING';
